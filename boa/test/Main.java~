@@ -13,7 +13,8 @@ public class Main {
 		}
 	}	
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		try {		
 			Scanner sc=new Scanner(System.in);
 			int x=sc.nextInt();
 			x=90;
@@ -23,5 +24,8 @@ public class Main {
 			else {
 				System.out.println(compute(x));		
 			}
+		}
+		catch(Exception e) {
+		}
 	}
 }
