@@ -17,11 +17,18 @@ public class Main {
 			Scanner sc=new Scanner(System.in);
 			int x=sc.nextInt();
 			x=90;
-			if(x>100) {
-				System.out.println(91);		
-			}	
-			else {
-				System.out.println(compute(x));		
+			for(int i=0;i<2;i++) {
+				System.out.println(compute(x));	
+			}
+	}
+	
+	public static void maincopy(String[] a) {		
+			Scanner sc=new Scanner(System.in);
+			int y=90;
+			int j=0;
+			while(j<2) {
+				System.out.println(compute(y));
+				j++;				
 			}
 	}
 }
